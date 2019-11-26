@@ -21,7 +21,7 @@
  * 选填
  * 是否全部被@，默认为true
  */
- $is_at_all = 'true';
+ $is_at_all = true;
  
  $robot = new Itcats\DingtalkSDK\Dingtalk($web_hook);
  $txt   = 'hello itcats!';
