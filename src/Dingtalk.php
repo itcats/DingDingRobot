@@ -2,7 +2,7 @@
 /**
  * @Created by PhpStorm
  * @Author  : itcats(364280595@qq.com)
- * @Date    :   2018-04-13 15:20
+ * @Date    :   2019年11月26日15:49:26
  */
 
 namespace Itcats\DingtalkSDK;
@@ -30,7 +30,7 @@ class Dingtalk
      */
     protected $is_at_all = '';
 
-    public function __construct($web_hook = '', $at_mobiles = array(), $is_at_all = 'true')
+    public function __construct($web_hook = '', $at_mobiles = array(), $is_at_all = true)
     {
         if (!empty($web_hook)) {
             $this->web_hook = $web_hook;
